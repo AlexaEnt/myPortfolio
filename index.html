@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/skill.bars.jquery.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+
+
+<body>
+    <div class="fullpage">
+        <menu>
+            <div class="logo">
+                <p>ENTALTSEVA ALEXANDRA</p>
+            </div>
+            <nav>
+                <ul>
+                    <li>УСЛУГИ</li>
+                    <li>ПОРТФОЛИО</li>
+                    <li>НАВЫКИ</li>
+                    <li>КОНТАКТЫ</li>
+                </ul>
+            </nav>
+
+            <div class="social">
+                <a href=""><img src="img/vk.svg" alt=""></a>
+                <a href=""><img src="img/whhatsap.svg" alt=""></a>
+                <a href=""><img src="img/github-sign.svg" alt=""></a>
+            </div>
+        </menu>
+
+        <div class="site">
+            <section class="AboutMe-Box">
+
+                <div class="AboutMe">
+                    <img src="img/hello.png" alt="">
+                    <div class="imghello">
+                        <p>Меня зовут <br> Ентальцева Александра, <br>
+                            <span>Я - frontend-разработчик / Дизайнер</span> </p>
+                    </div>
+                    <div class="button-links">
+                        <a class="portfolio" href="">ПОРТФОЛИО</a>
+                        <a class="contact" href="">СВЯЗАТЬСЯ</a> </div>
+                </div>
+
+                <div class="photo-box">
+                    <img src="img/photo.jpg" alt="">
+                </div>
+            </section>
+
+            <section class="SkillsBox">
+<h1><img id="Skills" src="img/Skills.svg" alt="">НАВЫКИ</h1>
+
+
+<div class="skill">
+        <div id="skill">
+                <div class="skillbar" data-percent="98">
+                        <span class="skillbar-title">HTML5</span>
+                        <p class="skillbar-bar" style="background: #e67e22;"></p>
+                        <span class="skill-bar-percent"></span>
+                      </div>
+                
+                      <div class="skillbar" data-percent="90">
+                            <span class="skillbar-title" >CSS</span>
+                            <p class="skillbar-bar" style="background: #b10294;"></p>
+                            <span class="skill-bar-percent"></span>
+                          </div>
+                
+                          <div class="skillbar" data-percent="80">
+                                <span class="skillbar-title" >JavaScript</span>
+                                <p class="skillbar-bar" style="background: #4cb631;"></p>
+                                <span class="skill-bar-percent"></span>
+                              </div>
+        
+        </div>
+        <div id="skill">
+                <div class="skillbar" data-percent="60">
+                        <span class="skillbar-title" > JQuery</span>
+                        <p class="skillbar-bar" style="background: #ff213f;"></p>
+                        <span class="skill-bar-percent"></span>
+                      </div>
+                
+                      <div class="skillbar" data-percent="70">
+                            <span class="skillbar-title" >WordPress</span>
+                            <p class="skillbar-bar" style="background: #2182d1;"></p>
+                            <span class="skill-bar-percent"></span>
+                          </div>
+                
+                          <div class="skillbar" data-percent="70">
+                                <span class="skillbar-title" >Photoshop</span>
+                                <p class="skillbar-bar" style="background: #ddbf15;"></p>
+                                <span class="skill-bar-percent"></span>
+                              </div>
+        
+        </div>
+</div>
+              
+
+            </section>
+
+
+
+            <section class="Portfolio-Box">
+                <h1>
+                    <img id="Portfolio" src="img/portfolio.svg" alt="">
+                    ПОРТФОЛИО</h1>
+                <div class="portfolio">
+                    <ul>
+                        <li><img src="img/portf.jpg" alt=""></li>
+                        <li><img src="img/portf.jpg" alt=""></li>
+                        <li><img src="img/portf.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="Services-Box">
+                <h1><img id="Services" src="img/Services.svg" alt="">УСЛУГИ</h1>
+
+                <div class="services">
+<div class="flipper">
+        <div class="front"><img src="img/servise/design.svg" alt=""> Дизайн </div>
+        <div class="back">Landing Page </br>
+                Многостраничные сайты </br>
+                Сайты-визитки </br> 
+                Мобильная версия </br>
+                Сайты-визитки </br></div>
+</div>
+<div class="flipper">
+        <div class="front"> <img src="img/servise/frontend.svg" alt=""> Код </div>
+        <div class="back">multipage </div>
+</div>
+<div class="flipper">
+    <div class="front"> <img src="img/servise/frontend.svg" alt=""> Код </div>
+    <div class="back">multipage </div>
+</div>
+                </div>
+            </section>
+
+            <section class="Contacts-Box">
+                <h1><img id="Contacts" src="img/Contacts.svg" alt="">КОНТАКТЫ</h1>
+                <div class="contacts">
+                    <div class="contact-social-network">
+                        <ul>
+                            <li><span>PHONE</span> +7 (900) 091-87-36</li>
+                            <li><span>E-MAIL </span> entalc@yandex.ru</li>
+                            <li><span>TELEGRAM</span> @alexaent</li>
+                        </ul>
+                    </div>
+                    <form action="message.php" method="post" class="feedback-box">
+                        <p>Напишите мне сообщение</p>
+
+                        <div class="form-box">
+                            <p>Имя</p> <input name="name" type="text">
+                        </div>
+                        <div class="form-box">
+                            <p>Телефон</p> <input name="phone" type="text">
+                        </div>
+                        <div class="form-box">
+                            <p>Почта</p> <input name="email" type="text">
+                        </div>
+                        <div class="form-box">
+                            <p>Сообщение</p> <textarea id="message" name="message" cols="30" rows="4" maxlength="400"
+                                class="form__control form__text" required=""></textarea>
+                        </div>
+
+                        <button>Отправить</button>
+                    </form>
+                </div>
+
+
+            </section>
+
+        </div>
+    </div>
+
+    <script src="js/menu.js"></script>
+
+</body>
+
+</html>
